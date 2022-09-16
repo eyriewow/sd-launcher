@@ -8,7 +8,7 @@ This thing is basically built for a tiny target audience: me. But I hope that so
 ## So how do I use this?
 
 - Copy `sd-launcher.py` and `config-example.yaml` into the root folder of your Automatic1111 Webui install
-- Copy and/or rename `config-example.yaml` to `config-example.yaml`. Or don't. I'm not your boss. But the script will copy/rename it for you anyway.
+- Copy and/or rename `sd-launcher-config-example.yaml` to `sd-launcher-config.yaml`. Or don't. I'm not your boss. But the script will copy/rename it for you anyway.
 - Customize settings to your heart's content. I have included a few settings in the default template that I found most useful to have for different profiles. You *should* be able to add any command-line argument that is included in the `/modules/shared.py` file.
 - One thing to note:
   - Arguments that require a value, such as `--ckpt` should be a top-level key : value pair in the config.
