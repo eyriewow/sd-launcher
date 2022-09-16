@@ -1,4 +1,3 @@
-from distutils.command import check
 import subprocess
 import argparse
 import yaml
