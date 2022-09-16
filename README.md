@@ -15,6 +15,18 @@ This thing is basically built for a tiny target audience: me. But I hope that so
   - Arguments that do not, such as `--medvram`, *need* to go under `extra-parameters`.
   - Basically, try to stick to the way it's laid out in the `config-example.yaml`
 
+For example, here's how I run my waifu model:
+
+```
+waifu:
+  ckpt: custom/waifu.ckpt
+  port: 7861
+  ui-config:
+  ui-settings: custom/waifu-settings.json
+  extra-params:
+    - --opt-split-attention
+```
+
 ## Tips
 
 If you want to create profiles here's a few tips:
