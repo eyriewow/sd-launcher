@@ -7,7 +7,7 @@ environment:
 
 default: # You can add additional key : value parameters here
   ckpt: model.ckpt
-  port: # if you change this, it needs to be in quotes "7860"
+  port: # in case you want a fixed port for each model - I do
   ui-config: ui-config.json
   ui-settings: config.json
   extra-params: #you can add additional parameters here that don't require a value
